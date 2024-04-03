@@ -1,0 +1,57 @@
+body{
+ background-color: rgb(17, 17, 16);
+}
+.contCard{
+  cursor: pointer;
+}
+.navbar{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(251, 251, 113) !important;
+}
+.card-size {
+  width: 150px;
+  border: none;
+  border-radius: 15px;
+  }
+.back-face{
+border-radius:15px; 
+}
+@font-face {
+  font-family: honk;
+  src: url('../fonts/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+}
+
+body {
+  background: black;
+  font-family: honk;
+  font-size: large;
+  text-transform: uppercase !important;
+
+}
+.titleGames{
+  font-size: 5em;
+}
+
+input {
+  text-transform: uppercase !important;
+  background:#000 !important;
+}
+select {
+  text-transform: uppercase !important;
+  background:#f1e9e9 !important;
+  cursor: pointer;
+}
+
+#btn_start {
+  background: #000;
+  border: solid 2px green;
+  font-size: 2em;
+}
+
+#btn_start:hover {
+  background: rgb(0, 96, 0);
+  background: linear-gradient(0deg, rgba(0, 96, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border-radius:10px;
+  font-size: 1.9em;
+}
+
