@@ -1,7 +1,7 @@
 /*
   Author:ing.Maira medina 
-  Date:08/03/2024
-  Description:This class is responsible for managing the memory game developed in JavaScript, HTML, CSS
+  Date:08/03/2024  Description:This class is responsible for managing the memory game developed in JavaScript, HTML, CSS
+
 */
 class Game {
   //Constructor method responsible for initializing the attributes, 
@@ -10,10 +10,10 @@ class Game {
     this.contGame = document.getElementById(contGameGame); //Content game
     this.contCardGame;//Content class img 
     this.getServer = window.location.origin; //server path name
-    this.folderPath = "/games_memory"; //name folder 
+    this.folderPath = "/games"; //name folder 
     this.serverPath = this.getServer + this.folderPath; //server path name
     this.uriJson = this.serverPath + "/assets/doc/User.json"; // path data JSON
-    this.pathImg = this.serverPath + "/assets/img/memory/"; // path data imgs 
+    this.pathImg = this.serverPath + "/assets/img/memory"; // path data imgs 
     this.pathImgDafault = this.serverPath + "/assets/img/memory/img_default.jpg"; // path data img default 
     this.longBootstrap = 12 / level; // Changes Grid bootstrap - The level value is divided by 12 spaces on the grid
     this.newArrayGames = []; // New data matrix 
