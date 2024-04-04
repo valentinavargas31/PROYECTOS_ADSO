@@ -1,29 +1,11 @@
-body{
- background-color: rgb(17, 17, 16);
-}
-.contCard{
-  cursor: pointer;
-}
-.navbar{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(135, 135, 10) !important;
-}
-.card-size {
-  width: 150px;
-  border: none;
-  border-radius: 15px;
-  }
-.back-face{
-border-radius:15px; 
-}
 @font-face {
-  font-family: honk;
-  src: url('../fonts/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+  font-family: Gloria aleluya;
+  src: url('../fonts/Gloria_Aleluya/GloriaHallelujah-Regular.ttf');
 }
 
 body {
-  background: black;
-  font-family: honk;
+  background: rgb(158, 222, 245);
+  font-family: gloria aleluya;
   font-size: large;
   text-transform: uppercase !important;
 
@@ -34,11 +16,11 @@ body {
 
 input {
   text-transform: uppercase !important;
-  background:#000 !important;
+  background:#f9e84b !important;
 }
 select {
   text-transform: uppercase !important;
-  background:#f1e9e9 !important;
+  background:#ecebeb !important;
   cursor: pointer;
 }
 
@@ -54,4 +36,20 @@ select {
   border-radius:10px;
   font-size: 1.9em;
 }
-
+.container-actions{
+  width: 100%;
+  position: fixed;
+  z-index: 200;
+  background: rgba(43, 41, 41, 0.34);
+  bottom: 0;
+  top:0;
+  display: none;
+}
+.container-actions div{
+  text-align: center;
+  width: 200px;
+  top: 25%;
+  position: absolute;
+  left: 42%;
+  cursor: pointer;
+}
