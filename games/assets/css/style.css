@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(158, 222, 245);
+  background: linear-gradient(to right, #fbb8eb, #aac0fc); 
   font-family: PixelifySans;
   font-size: large;
   text-transform: uppercase !important;
@@ -16,11 +16,11 @@ body {
 
 input {
   text-transform: uppercase !important;
-  background:#e9f8ba !important;
+  background:#ebf98f !important;
 }
 select {
   text-transform: uppercase !important;
-  background:#ecebeb !important;
+  background:#f8f6f6 !important;
   cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ select {
   width: 100%;
   position: fixed;
   z-index: 200;
-  background: rgba(43, 41, 41, 0.34);
+  background: rgba(19, 19, 19, 0.34);
   bottom: 0;
   top:0;
   display: none;
@@ -53,3 +53,11 @@ select {
   left: 42%;
   cursor: pointer;
 }
+.card {
+  width: 150px; /* ajusta el ancho según tus necesidades */
+  height: auto; /* mantiene la proporción de aspecto */
+}
+.navbar{
+  background-color: #91aefe !important;
+}
+

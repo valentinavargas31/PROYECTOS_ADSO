@@ -1,10 +1,9 @@
 /*
-Author:DIEGO CASALLAS
+Author:Maira Medina
 Date:19/03/2024
 Description:This functions 
 */
 
-/**Variables declarations*/
 const modelStorage = "User"; //This variable contains the name of the local storge model.
 const objForm = "FormUser"; //This variable contains the object of the form.
 const objSelect = "profile"; //This variable contains the object of the select.
@@ -63,12 +62,6 @@ function setLocation(route) {
 }
 
 /**This create Select html**/
-/**
- * The function `setCreateSelect` populates a select element with options based on JSON data.
- * @param getJson - The `getJson` parameter is likely a JSON string that contains data to populate the
- * select element with options. This data is expected to be parsed into an object using `JSON.parse`
- * within the `setCreateSelect` function.
- */
 function setCreateSelect(getJson) {
   var newOptions = '<option value="0" selected style="font-size: 1.5em;">SELECT PROFILE</option>';
   var contSelect = document.getElementById(objSelect);
@@ -81,13 +74,6 @@ function setCreateSelect(getJson) {
   contSelect.innerHTML = newOptions;
 }
 /**This create Select html**/
-/**
- * The function setProfile takes a data input and sets the value of the element with id 'username' to
- * the data if it is not 0, otherwise it sets it to an empty string.
- * @param data - The `data` parameter in the `setProfile` function is used to pass a value that will be
- * set as the value of the input field with the id 'username'. If the `data` is not equal to 0, it will
- * set the value of the input field to the `data
- */
 function setProfile(data) {
   let objInput = document.getElementById('username');
   if (data != 0) {
