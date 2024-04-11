@@ -8,7 +8,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$myDB = "api-rest1";
+$myDB = "apiSENA";
 $data = array();
 $mysqli = new mysqli($host, $user, $password, $myDB);
 
@@ -17,5 +17,4 @@ if ($mysqli->connect_error) {
 } else {
   //echo("Connect OK");
 }
-
 

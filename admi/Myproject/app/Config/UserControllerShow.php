@@ -18,3 +18,4 @@ $result->free_result();
 $mysqli->close();
 
 echo json_encode($data);
+
