@@ -1,0 +1,29 @@
+@font-face {
+  font-family:pixelifysans;
+  src: url('../fonts/PixelifySans-VariableFont_wght.ttf');
+}
+.container-form{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px gray;
+}
+
+body {
+  margin: 0;
+  color: #111111;
+  font: 700 16px/18px 'Open Sans', sans-serif;
+  font-family: pixelifysans;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: url(https://i.pinimg.com/564x/92/8f/92/928f9298be9a466aeba519bedfa1d541.jpg) no-repeat center;
+  background-size: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir toda la página */
+}
+
+
+.logo {
+  position: absolute;
+  top: -50px; /* Posicionamiento relativo al inicio del formulario */
+  left: -10px; /* Puedes ajustar según tu diseño */
+  width: 100px; /* Puedes ajustar el tamaño según tu necesidad */
+  height: auto; /* Para mantener la proporción */
+}
+
